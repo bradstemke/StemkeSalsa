@@ -24,10 +24,12 @@ a {
   cursor: pointer; }
 
 .nav-container {
-  background-color: #ff3e33;
-  width: 100%;
+  box-shadow: #bf9e54 1px 1px, #bf9e54 2px 2px, #bf9e54 3px 3px, #bf9e54 4px 4px, #bf9e54 5px 5px, #bf9e54 6px 6px, #bf9e54 7px 7px;
+  text-align: center;
+  background-color: #dbc89e;
+  width: 90%;
   position: fixed;
-  left: 0px; }
+  margin: 1% 5% 0% 5%; }
 
 nav {
   text-align: center;
@@ -50,7 +52,7 @@ nav {
         font-size: 18px; } }
 
 section {
-  background-color: rgba(202, 183, 131, 0.6);
+  background-color: #94a064;
   padding-top: 40px;
   height: 1200px;
   width: 100%; }
@@ -64,7 +66,7 @@ section {
       color: #002e40; }
 
 section:nth-child(odd) {
-  background-color: #12ad2a;
+  background-color: #ff3e33;
   color: white; }
   section:nth-child(odd) a {
     color: white; }
